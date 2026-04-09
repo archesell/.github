@@ -1,0 +1,14 @@
+# 是否允许空白 Issue（建议 false，强制用模板）
+blank_issues_enabled: false
+
+# 模板显示顺序
+templates:
+  - name: 💡 Story
+    template: story.yaml
+    about: 提出新功能、优化建议
+    labels: ["feature"]
+
+  - name: 🐛 Bug
+    template: bug.yaml
+    about: 报告程序错误、崩溃、异常
+    labels: ["bug"]
